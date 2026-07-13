@@ -2,16 +2,16 @@ import { SectionHead } from './section-head'
 
 const cards = [
   {
-    title: 'Player Systems',
-    text: 'Authentication, player identity, and future progression services can evolve without overloading the core game simulation.',
+    title: 'AI-Driven Engineering',
+    text: 'We utilize Kiro\'s advanced AI agents to accelerate core systems development, automatically generating infrastructure-as-code (Terraform) templates and orchestration workflows to sync our persistent game states.',
   },
   {
-    title: 'Match Intelligence',
-    text: 'Historical match data, telemetry streams, and analytics pipelines help improve balance, performance, and competitive integrity.',
+    title: 'Automated Verification',
+    text: 'To ensure flawless lockstep performance, we use Kiro to rapidly scale our test coverage, automated test beds, and QA scenarios—drastically reducing development cycles.',
   },
   {
-    title: 'Live Operations',
-    text: 'Scalable backend services provide a stable base for closed beta expansion, ranked features, events, and future multiplayer operations.',
+    title: 'Cloud Foundation',
+    text: 'AWS powers the heavy lifting behind Axiom War, driving player identity management, match history tracking, telemetry streams, and the robust socket-server backend required for low-latency live operations.',
   },
 ]
 
@@ -21,8 +21,8 @@ export function Aws() {
       <div className="mx-auto max-w-6xl px-6">
         <SectionHead
           kicker="Cloud Foundation"
-          title="Why AWS"
-          lead="AWS powers the cloud infrastructure behind Axiom War. We use it for player authentication, match history, telemetry, analytics, and scalable backend services — a reliable foundation for future competitive multiplayer and live operations."
+          title="Why Kiro & AWS"
+          lead="Axiom War is a deep-tech deterministic RTS with a massive, mathematical backend execution. Managing a complex, zero-RNG lockstep simulation as an indie developer requires extreme development velocity and rock-solid architecture. We rely on Kiro's agentic engineering and AWS infrastructure to build, test, and deploy a production-grade game systems ecosystem at scale."
         />
 
         <div className="grid gap-4 lg:grid-cols-5">
@@ -35,15 +35,15 @@ export function Aws() {
             </span>
             <p className="mb-4 flex items-center gap-3 font-mono text-xs font-bold uppercase tracking-[0.2em] text-primary">
               <span className="h-px w-6 bg-primary" aria-hidden="true" />
-              Battle-ready infrastructure
+              Agentic. Cloud. Verified.
             </p>
             <h3 className="mb-4 text-balance text-xl font-bold tracking-tight">
-              Cloud services that support deterministic gameplay at scale.
+              Kiro orchestrates the pipeline — AWS runs the stack.
             </h3>
             <p className="text-sm leading-relaxed text-muted-foreground">
-              The game client stays lean and real-time, while AWS handles the persistent systems
-              around it: account identity, secure service APIs, telemetry pipelines, analytics
-              processing, and the infrastructure required for long-term live support.
+              From AI-generated Terraform to lockstep test automation, every layer of Axiom War is
+              engineered for speed and reliability. Kiro accelerates development while AWS provides
+              the battle-tested infrastructure to support deterministic multiplayer at scale.
             </p>
           </article>
 
