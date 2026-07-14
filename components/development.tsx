@@ -4,8 +4,10 @@ import { SectionHead } from './section-head'
 const checklist = [
   { done: true, text: 'Core 2D grid engine implemented for Canvas rendering.' },
   { done: true, text: 'P2P networking link operational through PeerJS.' },
-  { done: true, text: 'Deterministic lockstep state synchronization active.' },
-  { done: false, text: 'Python telemetry integration and match logging under refinement.' },
+  { done: false, text: 'Lockstep state synchronization — under investigation for P2P consistency.' },
+  { done: false, text: 'Python telemetry / match logging backend (planned).' },
+  { done: false, text: 'Terraform-based infrastructure provisioning via Kiro (planned).' },
+  { done: false, text: 'Automated lockstep test coverage via Kiro (planned).' },
   { done: false, text: 'Closed beta optimization and deployment preparation ongoing.' },
 ]
 
@@ -18,7 +20,7 @@ export function Development() {
             <SectionHead
               kicker="Development Status"
               title="Active prototype moving toward closed beta readiness."
-              lead="Current development focuses on tightening the real-time grid loop, validating deterministic peer synchronization, and connecting the telemetry layer without bloating the core game client."
+              lead="Current development focuses on the core grid engine and P2P networking, with lockstep synchronization and cloud infrastructure planned as next milestones."
             />
             <p className="inline-flex items-center gap-2 rounded-sm border border-primary/40 bg-primary/10 px-4 py-2 font-mono text-xs font-bold uppercase tracking-wider text-primary">
               <span className="h-1.5 w-1.5 rounded-full bg-primary" aria-hidden="true" />

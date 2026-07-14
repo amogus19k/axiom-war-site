@@ -3,23 +3,23 @@ import { SectionHead } from './section-head'
 const mechanics = [
   {
     id: '01',
-    title: 'Equation-Driven Orders',
-    text: 'Every strategic action begins as a mathematical expression typed in real time, resolving directly into a grid command.',
+    title: 'Fog of War',
+    text: 'Limited visibility forces careful reconnaissance and tactical scouting. Map control is earned through calculated advances and risk assessment.',
   },
   {
     id: '02',
-    title: 'Mathematical Depth',
-    text: 'Build strategies around numerical matrices, vector rotations, and coordinate positioning rather than hotkey memorization.',
+    title: 'Base Building & Synthesis',
+    text: 'Construct production structures and synthesize units directly on the grid. Expand your economy while managing defensive lines.',
   },
   {
     id: '03',
-    title: 'Deterministic Ticks',
-    text: 'The simulation advances through strict, predictable state cycles. Every calculated move executes instantly and identically for both players.',
+    title: 'Formations & Unit Split',
+    text: 'Arrange units into tactical formations and split squads on the fly to multi-task, flank, or hold chokepoints.',
   },
   {
     id: '04',
-    title: 'RTS Identity',
-    text: 'Resource pressure, tactical positioning, and fast counter-play remain core, but your main weapon is how fast you can calculate.',
+    title: 'Tower Upgrades',
+    text: 'Fortify positions with upgradable defensive towers. Allocate resources between static defense and mobile army pressure.',
   },
 ]
 
@@ -30,7 +30,7 @@ export function About() {
         <SectionHead
           kicker="About & Gameplay"
           title="A calculator grid becomes a tactical battlefield."
-          lead="Axiom War transforms pure mathematical logic into real-time strategy. The battlefield is a coordinate grid where every compiled equation instantly translates into unit vectors, state shifts, and territory capture. Victory doesn't depend on raw APM, but on the speed and precision of your calculations."
+          lead="Axiom War is a prototype 2D RTS played on a coordinate grid. Players build bases, manage fog of war, control unit formations, and face off via P2P or against an AI opponent — classic strategy depth on a minimal, calculation-focused canvas."
         />
 
         <div className="grid gap-px overflow-hidden rounded-sm border border-border bg-border md:grid-cols-2">

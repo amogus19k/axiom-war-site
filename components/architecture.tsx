@@ -9,8 +9,8 @@ const flows = [
         text: 'Direct client-to-client browser architecture for core simulation.',
       },
       {
-        name: 'Deterministic Lockstep',
-        text: 'Synchronized tick simulation across peers.',
+        name: 'Tick Synchronization',
+        text: 'Peer-to-peer tick-based state sync across clients.',
       },
       {
         name: 'Canvas Rendering',
@@ -19,19 +19,19 @@ const flows = [
     ],
   },
   {
-    title: 'Telemetry Flow',
+    title: 'Telemetry Flow (planned)',
     steps: [
       {
         name: 'Game Client Core',
-        text: 'Web-native JavaScript logic compiles equations into commands.',
+        text: 'Web-native JavaScript logic driving the grid simulation.',
       },
       {
         name: 'Python Backend',
-        text: 'Secure match logging and performance telemetry.',
+        text: 'Future match logging and performance telemetry.',
       },
       {
         name: 'Analytics Layer',
-        text: 'Historical match review and calculation performance analysis.',
+        text: 'Planned historical match review and gameplay analysis.',
       },
     ],
   },
@@ -43,8 +43,8 @@ export function Architecture() {
       <div className="mx-auto max-w-6xl px-6">
         <SectionHead
           kicker="Technical Architecture"
-          title="Deterministic architecture for precise multiplayer execution."
-          lead="Two complementary flows separate real-time match synchronization from backend telemetry and calculation analysis."
+          title="Architecture for precise multiplayer execution."
+          lead="Two complementary flows separate real-time match synchronization from planned backend telemetry and gameplay analysis."
         />
 
         <div className="grid gap-4 md:grid-cols-2">

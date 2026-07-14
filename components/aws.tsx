@@ -3,15 +3,15 @@ import { SectionHead } from './section-head'
 const cards = [
   {
     title: 'AI-Driven Engineering',
-    text: 'We utilize Kiro\'s advanced AI agents to accelerate core systems development, automatically generating infrastructure-as-code (Terraform) templates and orchestration workflows to sync our persistent game states.',
+    text: 'We plan to use Kiro\'s AI agents to accelerate core systems development — generating infrastructure-as-code (Terraform) templates and orchestration workflows to sync persistent game state as we move from prototype to production.',
   },
   {
     title: 'Automated Verification',
-    text: 'To ensure flawless lockstep performance, we use Kiro to rapidly scale our test coverage, automated test beds, and QA scenarios—drastically reducing development cycles.',
+    text: 'To validate lockstep performance at scale, we intend to use Kiro to build out automated test coverage and QA scenarios well beyond what we can hand-write as a small team.',
   },
   {
     title: 'Cloud Foundation',
-    text: 'AWS powers the heavy lifting behind Axiom War, driving player identity management, match history tracking, telemetry streams, and the robust socket-server backend required for low-latency live operations.',
+    text: 'Once we move past local prototyping, AWS is the infrastructure we\'re building toward — player identity, match history, telemetry, and the server backend needed for low-latency live operations.',
   },
 ]
 
@@ -22,7 +22,7 @@ export function Aws() {
         <SectionHead
           kicker="Cloud Foundation"
           title="Why Kiro & AWS"
-          lead="Axiom War is a deep-tech deterministic RTS with a massive, mathematical backend execution. Managing a complex, zero-RNG lockstep simulation as an indie developer requires extreme development velocity and rock-solid architecture. We rely on Kiro's agentic engineering and AWS infrastructure to build, test, and deploy a production-grade game systems ecosystem at scale."
+          lead="Axiom War is a deep-tech deterministic RTS with a massive, mathematical backend execution. Managing a complex, zero-RNG lockstep simulation as an indie developer requires extreme development velocity and rock-solid architecture. As a small team, we\'re planning to lean on Kiro\'s agentic engineering to accelerate core systems work, and on AWS infrastructure to take the game from local prototype to a production-grade, scalable multiplayer service."
         />
 
         <div className="grid gap-4 lg:grid-cols-5">
@@ -38,12 +38,13 @@ export function Aws() {
               Agentic. Cloud. Verified.
             </p>
             <h3 className="mb-4 text-balance text-xl font-bold tracking-tight">
-              Kiro orchestrates the pipeline — AWS runs the stack.
+              Kiro will orchestrate the pipeline — AWS will run the stack.
             </h3>
             <p className="text-sm leading-relaxed text-muted-foreground">
-              From AI-generated Terraform to lockstep test automation, every layer of Axiom War is
-              engineered for speed and reliability. Kiro accelerates development while AWS provides
-              the battle-tested infrastructure to support deterministic multiplayer at scale.
+              Our plan is to go from AI-generated Terraform to lockstep test automation, engineering
+              every layer of Axiom War for speed and reliability. Kiro will accelerate development
+              while AWS provides the battle-tested infrastructure to support deterministic
+              multiplayer at scale.
             </p>
           </article>
 

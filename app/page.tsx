@@ -1,4 +1,5 @@
 // shabl
+import { GameplayPreview } from '@/components/gameplay-preview'
 import { SiteHeader } from '@/components/site-header'
 import { Hero } from '@/components/hero'
 import { About } from '@/components/about'
@@ -16,6 +17,7 @@ export default function Page() {
       <SiteHeader />
       <main>
         <Hero />
+        <GameplayPreview />
         <About />
         <Features />
         <Technology />

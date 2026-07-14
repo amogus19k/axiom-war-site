@@ -8,18 +8,18 @@ const stacks = [
   },
   {
     title: 'Networking',
-    text: 'Client-to-client match flow designed around synchronized ticks.',
-    tags: ['PeerJS', 'Lockstep'],
+    text: 'Client-to-client match flow via PeerJS data channels.',
+    tags: ['PeerJS'],
   },
   {
     title: 'Backend',
-    text: 'Lightweight Python services for logs, telemetry, and integrity checks.',
-    tags: ['Python', 'Telemetry'],
+    text: 'Static file server (Flask), deployment pending.',
+    tags: ['Python', 'Flask'],
   },
   {
     title: 'Infrastructure',
-    text: 'Minimal service layer focused on match history and analysis.',
-    tags: ['Match Logs', 'Analytics', 'APIs'],
+    text: 'Not yet deployed — planned as part of the production rollout.',
+    tags: ['Planned'],
   },
 ]
 
@@ -29,7 +29,7 @@ export function Technology() {
       <div className="mx-auto max-w-6xl px-6">
         <SectionHead
           kicker="Technology Stack"
-          title="Web-native rendering, deterministic networking, telemetry-ready services."
+          title="Web-native rendering, P2P networking, evolving backend."
         />
 
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
