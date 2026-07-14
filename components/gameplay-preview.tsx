@@ -12,23 +12,31 @@ export function GameplayPreview() {
 
         <div className="grid gap-6 md:grid-cols-2">
           <figure>
-            <img
-              src="/gif1.gif"
-              alt="Gameplay preview — clip 1"
-              loading="lazy"
+            <video
+              src="/gif1.mp4"
+              muted
+              loop
+              playsInline
+              autoPlay
               className="w-full rounded-sm border border-border"
-            />
+            >
+              <p>Your browser does not support the video tag.</p>
+            </video>
             <figcaption className="mt-3 text-center font-mono text-xs text-muted-foreground">
               Gameplay preview — clip 1/2
             </figcaption>
           </figure>
           <figure>
-            <img
-              src="/gif2.gif"
-              alt="Gameplay preview — clip 2"
-              loading="lazy"
+            <video
+              src="/gif2.mp4"
+              muted
+              loop
+              playsInline
+              autoPlay
               className="w-full rounded-sm border border-border"
-            />
+            >
+              <p>Your browser does not support the video tag.</p>
+            </video>
             <figcaption className="mt-3 text-center font-mono text-xs text-muted-foreground">
               Gameplay preview — clip 2/2
             </figcaption>
