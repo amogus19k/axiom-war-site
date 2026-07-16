@@ -7,7 +7,7 @@ const links = [
   { href: '#about', label: 'About' },
   { href: '#features', label: 'Features' },
   { href: '#technology', label: 'Technology' },
-  { href: '#aws', label: 'Why Kiro & AWS' },
+  { href: '#aws', label: 'Why AWS' },
   { href: '#architecture', label: 'Architecture' },
   { href: '#development', label: 'Development' },
 ]

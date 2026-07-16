@@ -16,7 +16,7 @@ export function BetaCta() {
             Receive development updates and early access invitations for the Axiom War prototype.
           </p>
           <a
-            href="mailto:beta@axiomwar.dev?subject=Closed%20Beta"
+            href="mailto:founder@axiomwar.site?subject=Closed%20Beta"
             className="inline-flex min-h-12 items-center rounded-sm bg-primary px-8 font-mono text-sm font-bold uppercase tracking-wider text-primary-foreground transition-opacity hover:opacity-90"
           >
             Contact the Team
