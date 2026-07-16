@@ -30,7 +30,7 @@ export function About() {
         <SectionHead
           kicker="About & Gameplay"
           title="A calculator grid becomes a tactical battlefield."
-          lead="Axiom War is a prototype 2D RTS played on a coordinate grid. Players build bases, manage fog of war, control unit formations, and face off via P2P or against an AI opponent — classic strategy depth on a minimal, calculation-focused canvas."
+          lead="AxiomWar is a prototype 2D RTS played on a coordinate grid. Players build bases, manage fog of war, control unit formations, and face off via P2P or against an AI opponent — classic strategy depth on a minimal, calculation-focused canvas."
         />
 
         <div className="grid gap-px overflow-hidden rounded-sm border border-border bg-border md:grid-cols-2">

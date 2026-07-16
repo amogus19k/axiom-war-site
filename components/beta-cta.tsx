@@ -13,7 +13,7 @@ export function BetaCta() {
             </span>
           </h2>
           <p className="mx-auto mb-8 max-w-md text-pretty leading-relaxed text-muted-foreground">
-            Receive development updates and early access invitations for the Axiom War prototype.
+            Receive development updates and early access invitations for the AxiomWar prototype.
           </p>
           <a
             href="mailto:founder@axiomwar.site?subject=Closed%20Beta"

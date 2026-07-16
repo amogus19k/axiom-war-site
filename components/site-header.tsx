@@ -31,14 +31,14 @@ export function SiteHeader() {
       </div>
 
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
-        <a href="#top" className="flex items-center gap-3" aria-label="Axiom War home">
+        <a href="#top" className="flex items-center gap-3" aria-label="AxiomWar home">
           <span
             className="grid h-9 w-9 place-items-center rounded-sm border border-primary/40 bg-primary/10 font-mono text-lg font-bold text-primary"
             aria-hidden="true"
           >
             {'Σ'}
           </span>
-          <span className="text-sm font-bold uppercase tracking-widest">Axiom War</span>
+          <span className="text-sm font-bold uppercase tracking-widest">AxiomWar</span>
         </a>
 
         <nav className="hidden items-center gap-1 lg:flex" aria-label="Site sections">

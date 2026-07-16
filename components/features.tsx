@@ -30,7 +30,7 @@ export function Features() {
         <SectionHead
           kicker="Core Features"
           title="Competitive strategy built on grid-based systems."
-          lead="Axiom War combines classic RTS depth — base building, fog of war, unit control — with a P2P networking model designed for direct, server-free matches."
+          lead="AxiomWar combines classic RTS depth — base building, fog of war, unit control — with a P2P networking model designed for direct, server-free matches."
         />
 
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">

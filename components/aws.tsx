@@ -22,7 +22,7 @@ export function Aws() {
         <SectionHead
           kicker="Cloud Foundation"
           title="Why AWS"
-          lead="Axiom War is a deep-tech deterministic RTS with a massive, mathematical backend execution. Managing a complex, zero-RNG lockstep simulation as an indie developer requires rock-solid cloud infrastructure — from match servers and player data to low-latency networking. We are planning to use AWS to take the game from a local prototype to a production-grade, scalable multiplayer service, accelerating development with tools like Kiro along the way."
+          lead="AxiomWar is a deep-tech deterministic RTS with a massive, mathematical backend execution. Managing a complex, zero-RNG lockstep simulation as an indie developer requires rock-solid cloud infrastructure — from match servers and player data to low-latency networking. We are planning to use AWS to take the game from a local prototype to a production-grade, scalable multiplayer service, accelerating development with tools like Kiro along the way."
         />
 
         <div className="grid gap-4 lg:grid-cols-5">
