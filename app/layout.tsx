@@ -16,7 +16,7 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: 'AxiomWar — The Algorithmic RTS',
   description:
-    'A deterministic 2D real-time strategy driven by mathematical expressions. No RNG, no speed-clicking — pure system design on a calculator grid.',
+    'A prototype 2D real-time strategy with P2P multiplayer via PeerJS and an AI opponent — grid-based tactics on a calculator battlefield.',
   generator: 'v0.app',
 }
 
